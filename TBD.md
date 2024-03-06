@@ -1,4 +1,4 @@
-Project Name: TBD(The url of the repository)
+Project Name: TBD([The url of the repository](https://github.com/adelaidad/ORIE4741FinalProject.git))
 
 Project type: Data analysis
 
