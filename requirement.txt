@@ -6,4 +6,6 @@ scikit-learn
 unidecode
 requests
 bs4
+html5lib
+selenium
 
