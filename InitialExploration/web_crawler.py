@@ -28,7 +28,7 @@ def modify_text(text_content):
   text_content = text_content.replace(" ","")
   return text_content
 
-def automate_data_collection(urls):
+def automate_data_collection(urls, n=50):
   """
   Method which returns a list containing scraped data of the URLs array fed in
 
@@ -36,7 +36,8 @@ def automate_data_collection(urls):
   the movie review website, Rotten Tomatoes. We utilize Selenium to get the relevant data from the 
   relevant pages.
 
-  urls is an array containing 4 alternative URLs which can be used to obtain the information via index 
+  urls: is an array containing 4 alternative URLs which can be used to obtain the information via index 
+  n : is an integer which specifies the number of movie urls to scrape from url array
   """
 
   #urls is a dataframe with 3 options 
@@ -44,7 +45,7 @@ def automate_data_collection(urls):
   real_type= []
 
 
-  for i in urls[:50]:
+  for i in urls[:n]:
     # print(i)
     driver=webdriver.Chrome()
     url = i[0]
@@ -143,6 +144,6 @@ def automate_data_collection(urls):
             real_type.append("need to check!!")
       
   print(real_type)
-  return content_scrapped
+  return content_scrapped, real_type
 
 
