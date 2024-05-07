@@ -9,7 +9,7 @@ This repository includes the following files:
 
 - [netflix_prediction.ipynb](netflix_predictor.ipynb) : This notebook is the core of our project. It includes a detailed exploration of feature engineering techniques, different modeling approaches (including regularization techniques), ensemble methods, and model evaluation strategies.
   
-- [datasetconstruction.ipynb](datasetconstruction.ipynb) : This notebook focuses on data preparation tasks such as merging different datasets, cleaning the data (handling duplicates, standardizing naming conventions).
+- [datasetconstruction.ipynb](datasetconstruction.ipynb) : This notebook focuses on data preparation tasks such as merging different datasets, cleaning the data (handling duplicates, standardizing naming conventions). It also includes some initial exploratory data plots aimed to help us understand the data and check assumptions
 
 - scraping : folder including scraping scripts that team member Andrea Siby helped write to scrape other data we wanted to include in our project. Unfortunately, due to the running time of the script we were unable to continue with the scraping technique but still wanted to include our attempt
 
